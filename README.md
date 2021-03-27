@@ -1,8 +1,8 @@
 # Fraud Credit Card Transaction Classification
 
-Download Dataset from [my kaggle profile](https://www.kaggle.com/rahulgaikwad2010/emotion-detection) 
+Download Dataset from [kaggle-fraud-transaction-classification](https://www.kaggle.com/rahulgaikwad2010/fraud-transaction-classification) 
 
-In the project, we will be working with a specified dataset of images. we will then explore the data and try the statistical learning approaches that we have covered in this course to tackle the task associated with the dataset. The statistical approaches should cover both conventional machine learning (i.e. not deep learning), from the first half of the unit, and deep learning from the second half. A goal of the project is to explore the approaches we've leant, or perhaps beyond those, in order to build a high-performing system.
+In the project, we will be working on machine learning project on credit card fraud
 
 # Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
@@ -16,14 +16,11 @@ In the project, we will be working with a specified dataset of images. we will t
 
 ### Project Structure Overview
 ```
-├── Facial Expression Recognition Deep Learning
-|  ├── dataset       - this folder contains training & testing data.
-|  │    ├──  PrivateTest_data_images.npy
-|  |    ├──  PublicTest_data_images.npy
-|  |    ├──  Training_data_images.npy (Omitted Because > 25 MB)
-|  |    └──  Training_data_labels.npy
+├── Fraud Credit Card Transaction Classification
+|  ├── data          - this folder contains training & testing data.
+|  |    └──  transactions.csv (Ommited)
 |  │
-└────── Facial Expression Recognition.ipynb
+└────── Fraud Transaction Classification.ipynb
 ```
 
 <br/>
@@ -48,16 +45,6 @@ do you estimate for the reversed transactions and multi-swipe transactions?
 4-1 There is a type of transactions in the dataset has a field called "isFraud". Build a predictive model to determine whether a given transaction 
 will be fraudulent or not.
 4-2 Use an estimate of performance using an appropriate sample	
-
-### Data Set
-
-The dataset have images of the faces which have the expressions or 7 classes as angry, disgusted, fearful, happy, sad, surprised, neutral.The Images pixel size is 48 x 48 grey scaled. 
-
-<b>Train data</b> - (9328, 48, 48)
-
-<b>Public Test data</b> - (1136, 48, 48)
-    
-<b>Private Test data</b> - (1153, 48, 48)
 
 <br/>
 
