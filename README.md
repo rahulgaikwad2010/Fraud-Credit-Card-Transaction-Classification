@@ -34,22 +34,20 @@ In the project, we will be working with a specified dataset of images.  we will 
 
 ### Project Goal
 
-The goal of this project is to predict the expression on the face.  The expression labels are standard ones used in psychology research: **angry, disgusted, fearful, happy, sad, surprised, neutral.**
+The following steps must follow (if you can add more than these steps, it would be great).
+1- Describe the structure of the date (statistical summary: number of records, counting max, min, null,...)
+2- Plotting histogram of "transactionAmount" column.
+3- We have duplicated transactions in the data set—two types: reversed transaction and multi-swipe. You need to answer these questions:
+3-1 Identify those types of duplicates
+3-2 Estimate of the total number of transactions and total dollar amount 
 
+do you estimate for the reversed transactions and multi-swipe transactions? 
+**Note that: the first transaction to be "normal" and exclude it from the number of transaction and dollar amount count**
 
-We will using the ML/DL models in the analysis which are stated below as:
-
-#### Conventional Models
-
-1. Support Vector Machines (SVM)
-2. Light Gradient Boosting Machine (LGBM)
-
-
-#### Deep Learning
-
-1. Convolutional Neural Network (Part 1)
-2. Convolutional Neural Network (Part 2)
-
+4- Modeling: Provide modeling algorithms and say why you use those methods? Why used those features?
+4-1 There is a type of transactions in the dataset has a field called "isFraud". Build a predictive model to determine whether a given transaction 
+will be fraudulent or not.
+4-2 Use an estimate of performance using an appropriate sample	
 
 ### Data Set
 
