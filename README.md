@@ -4,9 +4,10 @@ Download Dataset from [kaggle-fraud-transaction-classification](https://www.kagg
 
 In the project, we will be working on machine learning project on credit card fraud
 
-# Table Of Contents
+<br/>
+
+## Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
--  [Introduction](#introduction)
 -  [Project Goal](#project-goal)
 -  [Data Set](#data-set)
 -  [Version](#version)
@@ -24,10 +25,6 @@ In the project, we will be working on machine learning project on credit card fr
 ```
 
 <br/>
-
-### Introduction
-
-In the project, we will be working with a specified dataset of images.  we will then explore the data and try the statistical learning approaches that we have covered in this course to tackle the task associated with the dataset.  The statistical approaches should cover both conventional machine learning (i.e. not deep learning), from the first half of the unit, and deep learning from the second half.  A goal of the project is to explore the approaches we've leant, or perhaps beyond those, in order to build a high-performing system.
 
 ### Project Goal
 
