@@ -31,12 +31,12 @@ In the project, we will be working with a specified dataset of images.  we will 
 
 ### Project Goal
 
-The following steps must follow (if you can add more than these steps, it would be great).
-1- Describe the structure of the date (statistical summary: number of records, counting max, min, null,...)
-2- Plotting histogram of "transactionAmount" column.
-3- We have duplicated transactions in the data set—two types: reversed transaction and multi-swipe. You need to answer these questions:
-3-1 Identify those types of duplicates
-3-2 Estimate of the total number of transactions and total dollar amount 
+The following steps are followed:
+- Describe the structure of the date (statistical summary: number of records, counting max, min, null,...)
+- Plotting histogram of "transactionAmount" column.
+- We have duplicated transactions in the data set—two types: reversed transaction and multi-swipe. You need to answer these questions:
+  - Identify those types of duplicates
+  - Estimate of the total number of transactions and total dollar amount 
 
 do you estimate for the reversed transactions and multi-swipe transactions? 
 **Note that: the first transaction to be "normal" and exclude it from the number of transaction and dollar amount count**
