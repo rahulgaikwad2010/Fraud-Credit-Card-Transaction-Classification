@@ -32,19 +32,19 @@ In the project, we will be working with a specified dataset of images.  we will 
 ### Project Goal
 
 The following steps are followed:
-- Describe the structure of the date (statistical summary: number of records, counting max, min, null,...)
-- Plotting histogram of "transactionAmount" column.
-- We have duplicated transactions in the data set—two types: reversed transaction and multi-swipe. You need to answer these questions:
+- Describe the structure of the date `(statistical summary: number of records, counting max, min, null,...)`
+- Plotting histogram of `transactionAmount` column.
+- We have duplicated transactions in the dataset - two types: `reversed transaction and multi-swipe`. You need to answer these questions:
   - Identify those types of duplicates
-  - Estimate of the total number of transactions and total dollar amount 
+  - Estimate of the total number of transactions and total dollar amount
 
-do you estimate for the reversed transactions and multi-swipe transactions? 
-**Note that: the first transaction to be "normal" and exclude it from the number of transaction and dollar amount count**
+How do you estimate for the reversed transactions and multi-swipe transactions? 
+- The first transaction to be `normal` and exclude it from the number of transaction and dollar amount count
 
-4- Modeling: Provide modeling algorithms and say why you use those methods? Why used those features?
-4-1 There is a type of transactions in the dataset has a field called "isFraud". Build a predictive model to determine whether a given transaction 
+- Modeling - Provide modeling algorithms and say why you use those methods? Why used those features?
+  - There is a type of transactions in the dataset has a field called `isFraud`. Build a predictive model to determine whether a given transaction 
 will be fraudulent or not.
-4-2 Use an estimate of performance using an appropriate sample	
+  - Use an estimate of performance using an appropriate sample
 
 <br/>
 
